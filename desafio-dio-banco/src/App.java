@@ -8,11 +8,11 @@ public class App {
 
     public static void main(String[] args) {
 
-        Cliente maximo = new Cliente();
-        maximo.setNome("Maximo");
+        Cliente joao = new Cliente();
+        joao.setNome("João");
 
-        ContaCorrente contaCorrente = new ContaCorrente(2, 101, 0, maximo);
-        ContaPoupanca contaPoupanca = new ContaPoupanca(2, 123, 0, maximo);
+        ContaCorrente contaCorrente = new ContaCorrente(2, 101, 0, joao);
+        ContaPoupanca contaPoupanca = new ContaPoupanca(2, 123, 0, joao);
 
         contaCorrente.depositar(100);
 
